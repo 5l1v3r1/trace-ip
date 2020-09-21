@@ -6,9 +6,9 @@ apt update
 
 apt install git -y
 
-git clone https://github.com/rajkumardusad/IP-Tracer.git
+git clone https://github.com/ShuBhamg0sain/Trace-ip.git
 
-cd IP-Tracer
+cd Trace-ip
 
 chmod +x install
 
