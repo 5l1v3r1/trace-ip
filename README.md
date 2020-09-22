@@ -1,4 +1,4 @@
-# Trace-ip
+# trace-ip
 
 ## screenshot
 ![ ]()
@@ -9,10 +9,8 @@ apt update
 
 apt install git -y
 
-git clone https://github.com/ShuBhamg0sain/Trace-ip.git
+git clone https://github.com/ShuBhamg0sain/trace-ip.git
 
-cd Trace-ip
-
-chmod +x IP-Tracer.php
+cd trace-ip
 
 php IP-Tracer.php
