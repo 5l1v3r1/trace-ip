@@ -1,7 +1,8 @@
 # trace-ip
 
 ## screenshot
-![ ]()
+![ ](https://github.com/ShuBhamg0sain/trace-ip/blob/master/Screenshot_20200922_073517.jpg)
+
 
 ### How to install 
 
