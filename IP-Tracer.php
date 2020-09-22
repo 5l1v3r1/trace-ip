@@ -40,10 +40,10 @@ function upd() {
   echo "\n\033[01;32mUpdating Trace-ip.........\033[01;37m\n\n";
   sleep(1);
   system("cd ~/ && git clone https://github.com/ShuBhamg0sain/Trace-ip.git");
-  system("cd ~/ && sudo git clone https://github.com/rajkumardusad/IP-Tracer.git");
-  system("cd ~/IP-Tracer && sh install");
+  system("cd ~/ && sudo git clone https://github.com/ShuBhamg0sain/trace-ip.git");
+  system("cd ~/trace-ip && sh install");
   logo();
-  echo "\n\033[01;32m              IP-Tracer updated !!!\033[01;37m\n";
+  echo "\n\033[01;32m               trace-ip updated !!!\033[01;37m\n";
   sleep(1);
   menu();
 }
@@ -54,7 +54,7 @@ function menu() {
   echo "   \033[01;32m[ \033[01;37m2 \033[01;32m] \033[01;33mTrack Your IP Address.\n";
   echo "   \033[01;32m[ \033[01;37m3 \033[01;32m] \033[01;33mAbout us.\n";
   echo "   \033[01;32m[ \033[01;37m4 \033[01;32m] \033[01;33mHelp.\n";
-  echo "   \033[01;32m[ \033[01;37m5 \033[01;32m] \033[01;33mUpdate IP-Tracer.\n";
+  echo "   \033[01;32m[ \033[01;37m5 \033[01;32m] \033[01;33mUpdate trace-ip.\n";
   echo "   \033[01;32m[ \033[01;37mx \033[01;32m] \033[01;33mExit \n\n\033[00m";
   $inp = readline('  IP-Tracer >> ');
   if ($inp=="x" || $inp=="exit") {
