@@ -10,6 +10,6 @@ git clone https://github.com/ShuBhamg0sain/Trace-ip.git
 
 cd Trace-ip
 
-chmod +x install
+chmod +x IP-Tracer.php
 
-bash install
+php IP-Tracer.php
